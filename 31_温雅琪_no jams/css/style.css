@@ -1,0 +1,1226 @@
+@import url('reset.css');
+
+*{
+    margin: 0;
+    padding: 0;
+    color: black;
+    box-sizing: border-box;
+    
+}
+body{
+    font-family: 'Noto Sans TC' ,sans-serif;
+    font-size: 16px;
+    margin: 0 auto;
+    overflow-x: hidden;
+    
+    
+}
+
+/* head */
+
+.head{
+    height: 152px;
+    box-shadow: 0 3px 2px rgba(199, 199, 199, 0.7);    
+    z-index: 1;
+
+
+    
+
+}
+
+img{
+    width: 239px;
+    height: 103px;
+    
+
+}
+
+/* 選單 */
+ul{
+    width: 515px;
+    margin: 0 auto;
+    
+    
+   
+  }
+  
+  li{ 
+    position: relative;
+    display: inline-block;  
+    font-style: normal;
+  
+   
+    
+  }
+  
+  li a{
+    display: block;
+    width: 80px;
+    height: 30px;
+    text-decoration: none;
+    line-height: 23.17px;
+    margin: 0 10px ;    
+    
+    
+  }
+  
+  li a:hover{
+      color: rgb(218, 218, 218);
+  }
+  
+  
+  
+  ul>li:hover ol{
+    display: block;
+   
+    
+  
+  }
+  ol{
+    position: absolute;
+    display: none;
+    top: 30px;
+    left: -8px;
+
+  }
+  
+  
+  
+  ol>li a{
+    display: block;
+    width: 80px;
+    height: 30px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 20px;
+  
+  }
+  
+  ol:hover>li {
+   
+  
+  
+  }
+
+  /* icon */
+
+.icon{
+    font-size: 20px;
+    float: right;
+    margin-top: 20px;
+    margin-right :20px ;
+}
+
+.fas ,.fab{
+    margin-right: 20px;
+
+}
+
+/* head下的圖 */
+
+.photo{
+    /* background-color: rgb(207, 205, 205); */
+    height: 629px;
+    margin-top: 15px;
+    margin-bottom: 140px;
+   
+    
+    
+   
+}
+.photo img{
+  width:100%;
+  height: 100%;
+  object-fit: cover;
+  
+
+}
+/* 裝飾叉子湯匙 */
+.Decorate{
+  position: absolute;
+  top: 978px;
+  right: -152px;
+  width: 100%;
+  height: 155px;
+  width: 575px;
+  transform: rotate(51deg);
+}
+
+.Decorate2{
+  position: absolute;
+  top: 1885px;
+  left: -110px;
+  width: 100%;
+  height: 155px;
+  width: 526px;
+  transform: rotate(316deg);
+  
+
+
+}
+
+/*首頁 區塊1 */
+.top{
+    width: 1040px;
+    height: 520px;
+    margin: 0 auto;
+    display: flex;
+    
+}
+
+.top img{
+  height: 480px;
+  width: 557px;
+  margin-top: 20px;
+  margin-left: 20px;
+  object-fit: cover;
+  object-position: bottom right;
+  box-shadow: 8px 6px 7px rgba(0, 0, 0, 0.7); 
+
+  
+}
+
+.ph1{
+  position: relative;
+}
+
+.line{
+  height: 484px;
+  width: 556px;
+  position: absolute;
+  border: 3px solid black;
+  border-bottom: 4px solid black ;
+  border-right: 5px solid black ;
+  top:5px;
+  left: 5px;
+  
+}
+
+
+.list1{
+  margin: 20px;
+  margin-left: 60px;
+
+}
+
+.list1 h1{
+  margin: 20px 20px 10px;
+
+
+}
+
+.list1 h3{
+  margin: 0 20px 30px;
+
+}
+
+.list1 p{
+  margin: 20px;
+  line-height:1.6;
+
+}
+
+.list1{
+
+}
+
+.list1 a{
+  font-size: 16px;
+  font-style: normal;
+	display: block;
+	background-color:#F5C554;
+	width: 111px;
+	height: 43px;
+	text-align: center;
+	line-height: 40px;
+  margin-top: 40px;
+  margin-left: 246px;
+}
+  
+
+/* 首頁區塊2 */
+.top2{
+  width: 1040px;
+  height: 520px;
+  margin: 80px auto;
+  display: flex;
+}
+
+.top2 img{
+height: 480px;
+width: 557px;
+object-fit: cover;
+object-position: bottom;
+margin-top: 20px;
+margin-left: 20px;
+box-shadow: 8px 6px 7px rgba(0, 0, 0, 0.7); 
+
+}
+
+.ph2{
+position: relative;
+}
+
+.line2{
+height: 484px;
+width: 556px;
+position: absolute;
+border: 3px solid black;
+border-bottom: 4px solid black ;
+border-right: 5px solid black ;
+top:5px;
+left: 5px;
+
+
+}
+
+
+.list2{
+margin: 20px;
+margin-right: 40px;
+
+}
+
+.list2 h1{
+margin: 20px 20px 10px;
+
+
+}
+
+.list2 h3{
+margin: 0 20px 30px;
+
+}
+
+.list2 p{
+margin: 20px;
+line-height:1.6;
+
+}
+
+.list2{
+
+}
+
+.list2 a{
+font-size: 16px;
+font-style: normal;
+display: block;
+background-color:#F5C554;
+width: 111px;
+height: 43px;
+text-align: center;
+line-height: 40px;
+margin-top: 40px;
+margin-left: 246px;
+}
+
+/* 首頁輪播區塊3 */
+
+.top3 {
+  height: 750px;
+  display: flex;
+  margin-top: 130px;
+  overflow: hidden;
+  position: relative;
+}
+
+
+
+.top3 img{
+  width: 322px;
+  height: 382px;
+  margin-right: 50px;
+  margin-top: 200px;
+  object-fit: cover;
+  object-position: bottom;
+  box-shadow: 8px 6px 7px rgba(0, 0, 0, 0.7); 
+}
+
+.ph3,.ph5,.ph7{
+  position: relative;
+  margin-top: 40px;
+  
+
+
+}
+
+.line3,.line5,.line7{
+  width: 322px;
+  height: 382px;
+  position: absolute;
+  border: 3px solid black;
+  top:189px;
+  left:-10px
+}
+
+.ph4,.ph6{
+  position: relative;
+  margin-top: 100px;
+
+}
+
+.line4,.line6{
+  width: 322px;
+  height: 382px;
+  position: absolute;
+  border: 3px solid black;
+  top: 189px;
+  left:-10px
+
+}
+
+.top3 .list3{
+  width: 450px;
+  height: 150px;
+  margin: 0 auto;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top:30px;
+  margin: auto;
+}
+.top3 .list3 h1{
+  font-size: 64px;
+  position: absolute;
+  margin: 0 auto;
+  text-shadow: 2px 3px #999999;
+  color: #F5C554;
+
+
+}
+
+.top3 .list3 h2{
+  position: absolute;
+  top: -1px;
+  left: -142px;
+  transform: rotate(347deg);
+  
+
+
+}
+.top3 .list3 h3{
+  font-weight: bold;
+  position: absolute;
+  top: -14px;
+  right: -86px;
+  transform: rotate(19deg);
+  
+}
+
+
+.top3 a{
+  font-size: 25px;
+  font-style: normal;
+  color: white;
+  text-shadow: 1px 2px #8a8a8a;
+  display: block;
+  background-color:#000000;
+  width: 121px;
+  height: 40px;
+  text-align: center;
+  line-height:1.6;
+  margin: 0 auto;
+  margin-top: 110px;
+  text-decoration: none;
+  }
+
+
+/* 頁尾 */
+#footer{
+  height: 220px;
+  margin: 0 auto;
+  position: relative;
+  margin-top: 100px;
+  border-top: 1px solid rgba(199, 199, 199, 0.7);
+}
+
+#footer .text p{
+  text-align: center;
+  padding-top: 15px;
+  line-height: 1.6;
+  font-size: 16px;
+}
+
+.ficon{
+  font-size: 20px;
+  position: absolute;
+  top: 100px;
+  left: 461px;
+  
+
+}
+
+#footer .text  .phone{
+  height: 50px;
+  width: 310px;
+  display: flex;
+  margin: 0 auto;
+  
+}
+#footer .text  .phone .ph{
+  margin-right: 20px;
+}
+/* 品牌介紹背景浮動區塊 */
+
+
+.photo1{
+  margin-top: 15px;
+  /* background-color: rgb(207, 205, 205); */
+  height: 629px;
+  margin-bottom: 380px;
+  position: relative;
+}
+.photo1 img{
+  width:100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+
+  
+
+}
+.photo1 .p1{
+  width: 910px;
+  height: 486px;
+  position: absolute;
+  top: 405px;
+  left: 0;
+  right: 0;
+  margin: auto;
+ 
+}
+.photo1 .p1 img{
+  object-fit: cover;
+  object-position: 10% 30%;
+  
+}
+
+
+.p1 h1{
+  font-size: 64px;
+  position: absolute;
+  text-align: center;
+  top: 116px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  color: white;
+  font-weight: 500;
+  text-shadow: 2px 3px #999999;
+ 
+}
+
+
+
+/* 品牌介紹製作步驟-如何製作果醬 */
+
+.middle{ 
+  width: 1200px;
+  height: 1160px;
+  margin: 0 auto;
+  font-size: 0%;
+  
+   
+}
+
+.middle h1{
+  font-size: 64px;
+  text-align: center;
+  /* text-shadow: 2px 3px #999999; */
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 2px #F5C554;
+}
+
+.middle1 {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 30px 20px;
+  
+
+  
+ 
+
+
+}
+
+.middle1 .step{
+  list-style: none;
+  width: 325px;
+  height: 430px;
+  vertical-align: middle;
+  margin: 50px  auto; 
+ 
+ 
+
+}
+  
+
+
+.middle1 img{
+  width: 325px;
+  height: 259px;
+  object-fit: cover;
+  object-position: bottom;
+}
+
+.middle1 h4{
+  font-size: 25px ;
+  text-align: center;
+  line-height: 35px;
+  padding: 0 0px;
+  padding-top: 0px;
+
+}
+
+.middle1 p{
+  font-size: 16px;
+  padding: 10px 20px;
+  line-height: 35px;
+  text-align: center;
+
+}
+
+.step1{
+  border: 3px solid #F5C554;
+  height: 171px;
+  position: relative;
+
+}
+
+.step1 h4{
+  color: #F5C554;
+}
+
+.step1 img{
+  height: 41px;
+  width: 121px;
+  position: absolute;
+  top: -15px;
+  left: 100px;
+  position: relative;
+
+
+  
+}
+.box{
+  height: 41px;
+  width: 121px;
+  background-color: white;
+  border: 3px solid #F5C554;
+  position: absolute;
+  top: -22px;
+  left: 93px;
+} 
+
+
+/* 品牌介紹最下面區塊 */
+
+.down{
+  margin-top: 40px;
+  background-color: coral;
+  height: 473px;
+
+  display: flex;
+
+
+  
+
+
+}
+
+.down img{
+  height: 100%;
+  object-fit: cover;
+  width: 100%
+
+}
+
+
+
+
+
+
+/* 最新消息 */
+
+.middlenews {
+  width: 1200px;
+  height: 1000px;
+  margin: 0 auto;
+ 
+}
+
+.middlenews h1{
+  font-size: 64px;
+  text-align: center;
+  margin-bottom: 40px;
+  text-shadow: 2px 3px #999999;
+}
+
+
+
+.news {
+  /* background: #ffffff ; */
+  border: 3px solid rgb(180, 180, 180);
+  width: 440px;
+  height: 360px;
+  margin: 0 auto;
+  display: inline-block;
+  vertical-align: middle;
+  margin: 40px 77px; 
+  box-shadow: 8px 6px 7px rgba(65, 65, 65, 0.7); 
+
+ 
+  
+  
+}
+
+.new1{
+
+  
+  
+  
+ 
+}
+
+.new1 img{
+  width: 440px;
+  height: 240px;
+  width: 100%;
+  object-fit: cover;
+  object-position: center ;
+}
+
+.new1 p{
+  font-size: 16px;
+  padding-left: 20px;
+  padding-top: 15px;
+  
+  
+
+}
+
+.new1 h3{
+  font-size: 25px;
+  padding-left: 20px;
+  padding-top: 28px;
+  float: left;
+  
+  
+}
+
+.new1 a{
+  font-size: 18px;
+  float: right;
+  margin: 0 10px;
+  padding-top: 35px;
+}
+
+.new1 a .fas {
+  font-size: 20px;
+  margin-left: 5px;
+}
+.news a:hover,.fas:hover{
+  color: #869DB3;
+}
+
+
+
+/* 左邊商品列表 */
+
+
+.Aproduct{
+  display: flex;
+  padding-left: 100px;
+
+  
+}
+
+.list1_l{
+  width: 250px;
+  margin: 0 auto;
+  margin-right: 50px; 
+  margin-top: 50px;
+ 
+}
+
+.list1_l li:hover{ 
+  font-style: normal;
+}
+
+.list1_l li a{
+  display: block;
+  width: 80px;
+  height: 30px;
+  text-decoration: none;
+  line-height: 23.17px;
+  margin: 0px 10px ;  
+   
+  
+}
+
+.list1_l li a:hover{
+    color: #657682;
+ 
+}
+
+.list1_l li:hover .list1_ll li {
+  position: relative;
+  
+}
+.list1_l ol{
+  position: absolute;
+  display: none;
+  top: 0px;
+  left: 80px;
+
+}
+
+
+
+.list1_l ol>.list1_l li a{
+  display: block;
+  width: 80px;
+  height: 30px;
+  text-decoration: none;
+  text-align: center;
+  line-height: 20px;
+
+}
+
+
+.list1_l li:hover ol {
+  display: block;
+}
+
+.list1_l>li{
+  display: block;
+  margin: 10px 0;
+}
+
+
+
+
+
+/* 中間商品 */
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  height: 100%;
+  margin-left: 80px;
+  margin-top: 50px;
+  
+ 
+}
+
+.item{
+  width: 322px;
+  height: 440px;
+  text-align: center;
+  margin: 20px;
+ 
+}
+
+.products img{
+  width: 322px;
+  height: 321px;
+  display: block;
+  width: 100%;
+  margin-bottom: 40px;
+
+}
+
+.products h4{
+  font-size: 16px;
+  margin-bottom: 20px;
+
+  
+  
+
+
+}
+
+.products p{
+  font-size: 18px;
+  color: rgb(7, 82, 82);
+  
+
+
+}
+.products p:hover{
+
+}
+
+.products a{
+  text-decoration:none
+  
+}
+
+.products a h4:hover{
+  color: #869DB3;
+  
+}
+
+
+/* 最下面頁面連結 */
+.page{
+ width: 1033px;
+  margin-left: 360px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.page a {
+  display: inline;
+  margin: 0 5px;
+ 
+ 
+
+}
+
+.page a .fas{
+
+}
+
+.page a:hover{
+  text-decoration: none;
+  color: #8a8a8a;
+  
+}
+
+/* 搜尋列表 */
+
+.top_search{
+  display: flex;
+  margin: 0 30px;
+  margin-top: 80px;
+}
+.search{
+  padding-left:1000px;
+  position: relative;
+ 
+
+}
+.search input{
+  border: 3px solid;
+  height: 28px;
+  width: 211px;
+  font-size: 16px;
+  
+  
+}
+
+.search button{
+  border: none;
+  height: 19px;
+  width: 20px;
+  position: absolute;
+  top: 4px;
+  right: 149px;
+  background-color: white;
+}
+.search .fas{
+  font-size: 18px;
+  margin-top: 1px; 
+}
+
+/* 商品排序選單 */
+
+select{
+  height: 28px;
+  width: 141px;
+  text-align: center;
+  border: 3px solid black;
+  
+}
+
+option{
+
+}
+
+ 
+
+
+  /*購買頁面 */
+
+
+  .shop{
+    margin-top: 80px;
+    padding:80px 140px;
+    /* background-color: rgb(22, 22, 22); */
+    display: flex
+
+  }
+
+  .shop img{
+    height: 561px;
+    width: 675px;
+
+  }
+
+  .shop_test{
+    height: 561px;
+    width: 471px;
+    background-color: rgb(255, 255, 255);
+    padding-top: 60px;
+    padding-left: 100px;
+
+
+   
+  }
+
+
+  .shop h1{
+    font-size: 41px;
+    margin-bottom: 20px;
+  } 
+
+  .shop h5{
+    font-size: 25px;
+    color: rgb(14, 119, 119);
+    margin-bottom: 10px;
+  } 
+
+  .shop p{
+    width: 368px;
+    line-height: 1.6;
+    margin: 10px 0;
+    letter-spacing:2px;
+
+
+  }
+
+.shop .fas{
+  font-size: 20px;
+}
+
+.shop_test .box_1{
+  height: 55px;
+  display: flex;
+  margin: 20px 0;
+  
+
+}
+
+
+.decrase{
+    height: 55px;
+    width: 53px;
+    border: 1px solid rgb(0, 0, 0);
+    line-height: 40px;
+    border-right: none;
+    float: left;
+    padding-left: 17px;
+    padding-top: 8px;
+
+}
+
+.number{
+  height: 55px;
+  width: 73px;
+  border: 1px solid rgb(0, 0, 0);  
+  float: left; 
+}
+
+.plus{
+  height: 55px;
+  width: 53px;
+  border: 1px solid rgb(0, 0, 0);
+  line-height: 40px;
+  border-left: none;
+  padding-left: 17px;
+  padding-top: 8px;
+
+
+} 
+
+
+
+.button{
+  height: 55px;
+  width: 143px;
+  background-color: black;
+  font-size: 18px;
+  color: white;
+  text-align: center;
+  padding-top: 15px;
+  margin-left: 40px;
+  
+
+}
+
+
+/* 門市資訊position */
+
+
+.store{
+  margin-top: 120px;
+  margin-bottom: 100px;
+  clear: both
+  
+  
+}
+
+.store h1{
+    font-size: 64px;
+    text-align: center;
+    margin-bottom: 40px;
+    text-shadow: 2px 3px #999999;
+    
+}
+
+.all_map{
+  height: 100%;
+  width: 855px;
+  margin: 0 auto;
+  padding: 25px;
+  display: flex;
+  
+  
+  
+  
+ 
+
+}
+
+.map1{
+  height: 302px;
+  width: 395px;
+  
+  
+
+}
+
+.all_map .text{
+  height: 302px;
+  width: 395px;
+  padding:80px 25px 80px 100px;
+  
+  
+
+
+}
+
+
+.all_map .text h2{
+  font-size: 46px ;
+  margin-bottom: 20px;
+  
+}
+
+.all_map .text p{
+  letter-spacing: 1px;
+  
+  
+}
+
+
+/* 聯絡我們 content us */
+
+
+.content{
+  margin: 120px auto;
+  position: relative;
+  height: 800px;
+  
+  
+
+}
+
+.content h1{
+  font-size: 64px;
+  margin: 40px 0;
+  text-align: center;
+  text-shadow: 2px 3px #999999;
+
+}
+
+.content h5{
+  margin-bottom: 40px;
+  letter-spacing: 2px;
+  line-height: 1.6;
+  text-align: center;
+  font-size: 16px;
+  
+
+  
+ 
+  
+
+}
+
+
+form{
+  margin-bottom: 100px;
+  position: absolute;
+  top:191px;
+  left: 400px;
+  
+
+
+}
+form .text{
+  float: left;
+  margin: 20px;
+  
+ 
+  
+
+}
+
+form .input{
+  float: left;
+  margin: 20px;
+  height: 100%;
+
+
+}
+
+form p{
+  margin-top: 20px;
+  font-size: 25px;
+  margin-bottom:29px;
+ 
+  
+  
+}
+
+form input{
+  display: block;
+  margin-top: 20px;
+  font-size: 16px;
+  min-width:400px;
+  max-width:500px;
+  padding:10px;
+  border: 3px solid black;
+  border-bottom: 4px solid black ;
+  border-right: 3.5px solid black ;
+
+
+
+}
+
+form .question{
+  min-width:400px;
+  max-width:500px;
+  min-height: 200px;
+  max-height: 300px;
+  margin-top: 25px;
+  font-size: 16px;
+  padding:10px;
+  border: 3px solid black;
+  border-bottom: 4px solid black ;
+  border-right: 3.5px solid black ;
+
+ 
+  
+}
+form .sub{
+  height: 46px;
+  min-width: 150px;
+  padding: 10px 0;
+  background-color: black;
+  color: white;
+  
+}
