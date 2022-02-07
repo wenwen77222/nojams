@@ -537,8 +537,8 @@ margin-left: 246px;
   width: 130px;
   height: 120px;
   position: absolute;
-  left: 569px;
-  bottom: 59px;
+      left: 569px;
+    bottom: 59px;
 
 }
 
@@ -653,7 +653,8 @@ margin-left: 246px;
 .down img{
   height: 100%;
   object-fit: cover;
-  width: 100%
+  width: 100%;
+  overflow: hidden;
 
 }
 
